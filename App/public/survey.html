@@ -1,0 +1,127 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<h1> <title>Friend Finder</title> <h1>
+		<br>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+	<h1>Welcome to friend finder! <br> Please answer these few questions before continuing. <h1>
+  <br>
+  	<br>
+ 		<h4> Are you a Man or a Woman
+  	<hr>
+		<select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1"> Man</option>
+      <option value="2"> Woman</option>
+     </select>
+	<br>
+		<h4> How much do you like Painting <h2>
+	<hr>
+			<select class="chosen-select" id="q2">
+      <option value=""></option>
+      <option value="1">I dont paint</option>
+      <option value="2">I rarly painter</option>
+      <option value="3">I sometimes paint</option>
+      <option value="4">I love to paint</option>
+      <option value="5">Bob Ross is my God</option>
+    </select>
+
+    <br>
+		<h4> Are you ok with Dogs <h4>
+	<hr>
+		 	<select class="chosen-select" id="q3">
+      <option value=""></option>
+      <option value="1"> Yes</option>
+      <option value="2"> No</option>
+      </select>
+    <br>
+		<h4> Are you ok with Cats<h5>
+	<hr>
+			<select class="chosen-select" id="q4">
+      <option value=""></option>
+      <option value="1">Yes</option>
+      <option value="2">No</option>
+   	</select>
+	<br>
+		<h4> Do you like hikeing <h6> 
+	<hr>
+			<select class="chosen-select" id="q5">
+      <option value=""></option>
+      <option value="1"> I never hike </option>
+      <option value="2"> I rarly Hike</option>
+      <option value="3"> I sometimes Hike</option>
+      <option value="4"> I Normally Hike</option>
+      <option value="5"> I love to Hike</option>
+    </select>
+	<br>
+		<h4> Do you work out <h7>
+	<hr>
+			<select class="chosen-select" id="q6">
+      <option value=""></option>
+      <option value="1"> Never</option>
+      <option value="2"> Rarly</option>
+      <option value="3"> Sometimes</option>
+      <option value="4"> Often</option>
+      <option value="5"> All the time</option>
+    </select>
+	<br>
+		<h4> Do you have a job <h8>
+	<hr>
+			<select class="chosen-select" id="q7">
+      <option value=""></option>
+      <option value="1">Unemployed</option>
+      <option value="2">Yes</option>
+    </select>
+	<br>
+		<h4> Do you smoke <h9>
+	<hr>
+			<select class="chosen-select" id="q8">
+      <option value=""></option>
+      <option value="1">No</option>
+      <option value="2">Socially</option>
+      <option value="3">Sometimes</option>
+      <option value="4">Often</option>
+      <option value="5">Yes</option>
+    </select>
+	<br>
+		<h4> Do you drink<h10>
+	<hr>
+			<select class="chosen-select" id="q9">
+      <option value=""></option>
+      <option value="1">No</option>
+      <option value="2">Socially</option>
+      <option value="3">Sometimes</option>
+      <option value="4">Often</option>
+      <option value="5">Im like Homer</option>
+    </select>
+	<br>
+		<h4> How old are you<h11>
+	<hr>
+			<select class="chosen-select" id="q2">
+      <option value=""></option>
+      <option value="1">18-25</option>
+      <option value="2">26-30</option>
+      <option value="3">31-35</option>
+      <option value="4">36-40</option>
+      <option value="5">41-45</option>
+      <option value="2">46-50</option>
+      <option value="3">51-55</option>
+      <option value="4">56-60</option>
+      <option value="3">61+</option>
+    </select>
+	<br>
+		<button onclick="myFunction()"> Submit survey </button>
+
+<p id="survey"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("survey").innerHTML = "Survey Subbmitted ";
+}
+</script>
+	
+</body>
+</html>
